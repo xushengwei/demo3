@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.tv);
         textView.setText("hello word");
+        // ls -al ~/.ssh
+        // pbcopy < ~/.ssh/id_rsa.pub
 
     }
 }
